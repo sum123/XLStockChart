@@ -7,6 +7,9 @@ K线图(烛线图，分时图，MA、VOL、MACD、KDJ、RSI)  捏合手势 加�
 
 XLStockChart是一个用于区块链币价或股票行情显示的库。
 
+![](https://github.com/Sum123/XLStockChart/blob/master/IMG_3630.PNG?raw=true)
+![](https://github.com/Sum123/XLStockChart/blob/master/demo.gif?raw=true)
+
 ## Example
 		// 日期显示类型 日K以内是MM/DD HH:mm  日K以外是YY/MM/DD
         dateType = .min
