@@ -25,7 +25,7 @@ let KLINETIME1Week = "周K"
 
 class ViewController: UIViewController {
     
-    /// 日期显示类型 日K以内是mm/dd HH:MM  日K以外是YY/MM/DD
+    /// 日期显示类型 日K以内是MM/DD HH:mm  日K以外是YY/MM/DD
     var dateType: XLKLineDateType = .min
     
     /// K线类型 烛线图/分时图
