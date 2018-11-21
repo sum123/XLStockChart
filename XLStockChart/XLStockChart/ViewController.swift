@@ -31,10 +31,10 @@ class ViewController: UIViewController {
     /// K线类型 烛线图/分时图
     var lineType: XLKLineType = .candleLineType
     
-    /// 主图显示 默认MA
+    /// 主图显示 默认MA (MA、BOLL、隐藏)
     var mainString = KLINEMA
     
-    /// 副图显示 默认VOL
+    /// 副图显示 默认VOL (VOL、MACD、KDJ、RSI)
     var secondString = KLINEVOL
     
     /// 十字线是否在动画

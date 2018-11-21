@@ -27,7 +27,7 @@ class XLCrossDetailView: UIView {
     // MARK: - Method
     func bind(model: XLKLineModel, preClose: CGFloat) {
         // 时间
-        oneLabArray[0].text = String.init(format: "%@: %@", KLINETIME, model.time.xlChart.toTimeString("MM/DD HH:mm"))
+        oneLabArray[0].text = String.init(format: "%@: %@", KLINETIME, model.time.xlChart.toTimeString("MM/dd HH:mm"))
         
         // 成交量
         oneLabArray[1].text = String.init(format: "%@: %@", KLINEVOL, model.volumefrom.xlChart.kLineVolNumber())

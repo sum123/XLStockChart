@@ -223,6 +223,7 @@ open class XLKLineView: UIView, XLDrawLayerProtocol {
         bottomChartTextLayer.configureBottomValue(secondDrawString: secondDrawString, one: one, two: two, three: three)
     }
     
+    /// 加载k线数据的方法 mainDrawString：主图绘制字符串，secondDrawString：副图绘制字符串，dateType：日期显示类型，lineType：K线显示类型
     public func configureView(data: [XLKLineModel], isNew: Bool, mainDrawString: String, secondDrawString: String, dateType: XLKLineDateType, lineType: XLKLineType) {
         
         hideCross()
